@@ -1,0 +1,6 @@
+print('hello I can change the number from binary to hexa')
+binary=input('enter a binary number:')
+decimalsolution=int(binary,base=2)
+hexasolution=hex(decimalsolution)
+print('the answer is')
+print(hexasolution)
